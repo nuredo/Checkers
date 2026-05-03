@@ -29,7 +29,7 @@ def get_remark(grade):
         "B": "Very Good!",
         "C": "Good",
         "D": "Needs Improvement",
-        "F": "Failing — Please seek help."
+        "F": "Fail"
     }
     return remarks[grade]
 
